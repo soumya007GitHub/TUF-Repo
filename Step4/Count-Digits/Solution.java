@@ -2,9 +2,9 @@ class Main {
     static int countDigit(int n){
     int num = n;
     int count = 0;
-    while(num%10 != 0){
-        num = num/10;
+    while(num>0){
         ++count;
+        num = num/10;
     }
     return count;
     }
