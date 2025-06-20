@@ -1,3 +1,12 @@
+/* SAMPLE PATTERN
+*
+* *
+* * *
+* * * *
+* * * * *
+*/
+
+
 class Solution {
 
     void printTriangle(int n) {
