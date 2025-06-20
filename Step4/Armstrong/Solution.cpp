@@ -17,7 +17,7 @@ bool armstrong(int n){
 }
 int main()
 {
-    int result = armstrong(1534);
+    bool result = armstrong(1534);
     cout<<result;
     return 0;
 }
